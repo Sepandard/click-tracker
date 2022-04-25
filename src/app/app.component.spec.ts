@@ -23,7 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'click-tracker'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('click-tracker');
   });
 
   it('should render title', () => {
