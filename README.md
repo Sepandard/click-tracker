@@ -1,6 +1,7 @@
 # ClickTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+This project track all user clicks and show it with heat-map.js 
 
 ## Development server
 
