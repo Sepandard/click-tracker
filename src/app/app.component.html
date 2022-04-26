@@ -1,0 +1,21 @@
+<div id="heatmapContainer"   (click)="onTrack($event)">
+<div class="w-100" >
+  <div *ngIf="show">
+
+    <div  class="" *ngFor="let click of clickEventsArr">
+      
+      
+      <app-tracker  class="p-abs" [style.top]="click.y" [style.left]="click.x" ></app-tracker>
+    </div>
+  </div>
+  <p>
+    Click on any elements in this document to find out which element triggered
+    the onclick event.
+  </p>
+
+  <h1>This is a heading</h1>
+
+  <button>This is a button</button>
+</div>
+<button (click)="show = !show">on</button>
+</div>
